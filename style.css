@@ -19,9 +19,10 @@ main{
     grid-template-columns: auto, auto;
     grid-template-rows: auto, auto;
     grid-template-areas: 
-        "blå röd"
-        "gul grön";
+        "röd blå"
+        "grön gul";
 }
+
 section{
     height: 50vh;
 }

@@ -1,0 +1,11 @@
+body{
+    background-color:cornflowerblue;
+    display: grid;
+    grid-template-areas: center;
+}
+img{
+    align: center;
+    grid-area: center;
+    height: 100vh;
+    border-radius: 100%;
+}
