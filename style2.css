@@ -4,8 +4,9 @@ body{
     grid-template-areas: center;
 }
 img{
-    align: center;
     grid-area: center;
     height: 100vh;
+    width: auto;
     border-radius: 100%;
 }
+
