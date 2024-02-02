@@ -1,12 +1,26 @@
 body{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-areas: 
+    "a b c"   
+;
+}
+main{
+    align-content: center;
     background-color:cornflowerblue;
     display: grid;
-    grid-template-areas: center;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-areas: 
+    "1 center 2";
+    height: fit-content;
+    width: fit-content;
+    grid-area: b;
 }
-img{
+#cirkel{
     grid-area: center;
-    height: 100vh;
-    width: auto;
+    height: 50vh;
+    width: 50vh;
+    border: 1px solid orange;
+    background-color: orange;
     border-radius: 100%;
 }
-
